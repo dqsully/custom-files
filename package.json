@@ -1,0 +1,23 @@
+{
+    "name": "Custom Files",
+    "main": "./lib/custom-files",
+    "version": "0.0.0",
+    "description": "A way to customize the look of your files in Atom Editor. Right click a file or folder to customize it.",
+    "activationCommands": {
+        "atom-workspace": "custom-files:text"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dqsully/custom-files"
+    },
+    "license": "MIT",
+    "engines": {
+        "atom": ">0.50.0"
+    },
+    "readme": "# custom-files\n\nA way to customize the way your files look in Atom.\nRight click any file or folder and select 'customize' to begin.\n\nCurrently supports:\n* Changing the icon to an svg, png, jpeg, font\n* Changing the background color\n* Changing the text color\n* Adding a colored highlight (seperate of git highlight)\n* Adding a background image\n* Adding an alias",
+    "readmeFilename": "README.md",
+    "bugs": {
+        "url": "https://github.com/dqsully/custom-files/issues"
+    },
+    "homepage": "https://github.com/dqsully/custom-files"
+}
