@@ -1,4 +1,4 @@
-# custom-files
+# custom-files - NOT WORKING YET
 
 A way to customize the way your files look in Atom.
 Right click any file or folder and select 'customize' to begin.
