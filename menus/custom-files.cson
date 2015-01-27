@@ -4,11 +4,11 @@
     {
       label: 'Customize File/Folder'
       submenu: [
-          {label: 'Change Icon', command: 'custom-files:icon'}
-          {label: 'Change Background', command: 'custom-files:background'}
-          {label: 'Chagne Text Style', command: 'custom-files:text'}
-          {label: 'Manage Highlights', command: 'custom-files:highlight'}
-          {label: 'Manage Alias', command: 'custom-files:alias'}
+        {label: 'Change Icon', command: 'custom-files:icon'}
+        {label: 'Change Background', command: 'custom-files:background'}
+        {label: 'Chagne Text Style', command: 'custom-files:text'}
+        {label: 'Manage Highlights', command: 'custom-files:highlight'}
+        {label: 'Manage Alias', command: 'custom-files:alias'}
       ]
     }
   ]
