@@ -4,10 +4,36 @@
     {
       label: 'Customize File/Folder'
       submenu: [
-        {label: 'Change Icon', command: 'custom-files:icon'}
-        {label: 'Change Background', command: 'custom-files:background'}
-        {label: 'Chagne Text Style', command: 'custom-files:text'}
-        {label: 'Manage Highlights', command: 'custom-files:highlight'}
+        {
+          label: 'Change Icon',
+          submenu: [
+            {label: 'Color/Gradient', command: 'custom-files:iconcolor'}
+            # {label: 'Shape', command: 'custom-files:iconshape'}
+            # {label: 'Image', command: 'custom-files:iconimage'}
+          ]
+        }
+        {
+          label: 'Change Background',
+          submenu: [
+            {label: 'Color/Gradient', command: 'custom-files:backgroundcolor'}
+            # {label: 'Image', command: 'custom-files:backgroundimage'}
+          ]
+        }
+        {
+          label: 'Change Text',
+          submenu: [
+            {label:  'Color/Gradient', command: 'custom-files:textcolor'}
+            # {label: 'Image', command: 'custom-files:textimage'}
+          ]
+        }
+        {
+          label: 'Manage Highlight',
+          submenu: [
+            {label: 'Color/Gradient', command: 'custom-files:highlightcolor'}
+            # {label: 'Image', command: 'custom-files:highlightimage'}
+            {label: 'Remove', command: 'custom-files:removehiglight'}
+          ]
+        }
         {label: 'Manage Alias', command: 'custom-files:alias'}
       ]
     }
