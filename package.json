@@ -22,6 +22,6 @@
   "homepage": "https://github.com/dqsully/custom-files",
   "dependencies": {
     "fs-plus": "^1.0.0",
-    "tree-view": "^0.100.0",
-  },
+    "tree-view": "^0.100.0"
+  }
 }
