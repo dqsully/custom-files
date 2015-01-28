@@ -1,7 +1,7 @@
 {
   "name": "custom-files",
   "main": "./lib/custom-files.js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A way to customize the look of your files in Atom Editor. Right click a file or folder to customize it.",
   "activationCommands": {
     "atom-workspace": "custom-files:text"
